@@ -1,0 +1,80 @@
+import CommissionIcon from "../assets/icons/commision_icon.svg";
+
+function Dashboard() {
+  return (
+    <>
+      {/* Main content header */}
+      <div className="flex flex-col items-start justify-between pb-6 space-y-4 border-b lg:items-center lg:space-y-0 lg:flex-row">
+        <h1 class="text-xl font-semibold whitespace-nowrap">
+          Welcome back Salisu
+        </h1>
+      </div>
+      {/* Start content */}
+      <div className="grid grid-cols-1 gap-5 mt-6 sm:grid-cols-2 lg:grid-cols-4">
+        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
+          <div className="flex items-start flex-col justify-between">
+            <div className="flex space-x-3 items-center">
+              <img src={CommissionIcon} alt="How many clicked icon" />
+              <span className="text-lg font-semibold">click</span>
+            </div>
+            <span className="text-2xl ml-24">300</span>
+          </div>
+        </article>
+        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
+          <div className="flex items-start flex-col justify-between">
+            <div className="flex space-x-3 items-center">
+              <img src={CommissionIcon} alt="How many clicked icon" />
+              <span className="text-lg font-semibold">Order</span>
+            </div>
+            <span className="text-2xl ml-24">175</span>
+          </div>
+        </article>
+        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
+          <div className="flex items-start flex-col justify-between">
+            <div className="flex space-x-3 items-center">
+              <img src={CommissionIcon} alt="How many clicked icon" />
+              <span className="text-lg font-semibold">Total Sales</span>
+            </div>
+            <span className="text-2xl ml-24">88</span>
+          </div>
+        </article>
+        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
+          <div className="flex items-start flex-col justify-between">
+            <div className="flex space-x-3 items-center">
+              <img src={CommissionIcon} alt="How many clicked icon" />
+              <span className="text-lg font-semibold">Commission</span>
+            </div>
+            <span className="text-2xl ml-24">$8,777</span>
+          </div>
+        </article>
+      </div>
+      {/* ========== Start content end ========= */}
+
+      {/* ========== Statistics start ==========*/}
+      <div>
+        <span className="text-xl mt-5 block">Click Statistics</span>
+        <div className="shadow-lg p-4 w-full h-80 bg-white rounded-md">
+          <select className="outline-none border border-blue-600 rounded-md py-2 px-4 w-64 bg-white">
+            <option value="Seven Days">Last 7 Days</option>
+          </select>
+          <div className="mt-10">Statistics Chart goes here</div>
+        </div>
+      </div>
+      {/* ========== Statistics end ==========*/}
+
+      {/* ========== Detail Order ========== */}
+      <div>
+        <span className="text-xl mt-5 block">Detail Order</span>
+        <div className="shadow-lg p-4 w-full h-80 bg-white rounded-md flex flex-col">
+          <div className="h-64">Table goes here</div>
+          <button className="bg-blue-600 self-center py-2 px-4 rounded-md outline-none text-white">
+            View All
+          </button>
+        </div>
+      </div>
+      {/* ========== Detail Order End ========== */}
+    </>
+  );
+}
+
+export default Dashboard;
