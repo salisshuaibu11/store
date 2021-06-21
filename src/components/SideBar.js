@@ -1,9 +1,12 @@
+import { NavLink } from "react-router-dom";
+
 import {
   ChevronDoubleLeftIcon,
   TrendingUpIcon,
   UserAddIcon,
   ViewGridIcon,
 } from "@heroicons/react/outline";
+import NavBar from "./NavBar";
 
 // initial width = 64
 
@@ -23,54 +26,54 @@ function SideBar({ show }) {
         </button>
       </div>
 
-      <nav class="flex-1 overflow-hidden hover:overflow-y-auto">
-        <ul class="p-2 overflow-hidden">
+      <nav className="flex-1 overflow-hidden hover:overflow-y-auto">
+        <ul className="p-2 overflow-hidden">
           <li>
-            <a
-              href="#"
-              class="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            <NavLink
+              to="/"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
                 <ViewGridIcon width={25} />
               </span>
               <span className={`${show ? "block" : "hidden"}`}>Dashboard</span>
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="#"
-              class="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            <NavLink
+              to="/products"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
                 <ViewGridIcon width={25} />
               </span>
               <span className={`${show ? "block" : "hidden"}`}>Products</span>
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="#"
-              class="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            <NavLink
+              to="/reports"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
                 <TrendingUpIcon width={25} />
               </span>
               <span className={`${show ? "block" : "hidden"}`}>Reports</span>
-            </a>
+            </NavLink>
           </li>
 
           <li>
-            <a
-              href="#"
-              class="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            <NavLink
+              to="/invitation"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
                 <UserAddIcon width={25} />
               </span>
               <span className={`${show ? "block" : "hidden"}`}>Invitation</span>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>

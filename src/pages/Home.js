@@ -1,6 +1,9 @@
+import ClickIcon from "../assets/icons/click.svg";
+import OrderIcon from "../assets/icons/product.svg";
+import SalesIcon from "../assets/icons/sales.svg";
 import CommissionIcon from "../assets/icons/commision_icon.svg";
 
-function Dashboard() {
+export default function Dashboard() {
   return (
     <>
       {/* Main content header */}
@@ -14,7 +17,9 @@ function Dashboard() {
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
-              <img src={CommissionIcon} alt="How many clicked icon" />
+              <div className="bg-blue-500 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={ClickIcon} alt="How many clicked icon" />
+              </div>
               <span className="text-lg font-semibold">click</span>
             </div>
             <span className="text-2xl ml-24">300</span>
@@ -23,7 +28,9 @@ function Dashboard() {
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
-              <img src={CommissionIcon} alt="How many clicked icon" />
+              <div className="bg-yellow-300 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={OrderIcon} alt="Order" />
+              </div>
               <span className="text-lg font-semibold">Order</span>
             </div>
             <span className="text-2xl ml-24">175</span>
@@ -32,7 +39,9 @@ function Dashboard() {
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
-              <img src={CommissionIcon} alt="How many clicked icon" />
+              <div className="bg-blue-600 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={SalesIcon} alt="How many clicked icon" />
+              </div>
               <span className="text-lg font-semibold">Total Sales</span>
             </div>
             <span className="text-2xl ml-24">88</span>
@@ -65,8 +74,59 @@ function Dashboard() {
       {/* ========== Detail Order ========== */}
       <div>
         <span className="text-xl mt-5 block">Detail Order</span>
-        <div className="shadow-lg p-4 w-full h-80 bg-white rounded-md flex flex-col">
-          <div className="h-64">Table goes here</div>
+        <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
+          <div>
+            <table className="h-64 w-full mb-5">
+              <thead className="border-b border-gray-400">
+                <tr>
+                  <th>Data</th>
+                  <th>Click</th>
+                  <th>Order</th>
+                  <th>Presentase</th>
+                  <th>Total sales</th>
+                  <th>Commision</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-400">
+                  <td className="pl-6">7, June 2021</td>
+                  <td>30</td>
+                  <td>10</td>
+                  <td>3.0%</td>
+                  <td>3.0%</td>
+                  <td>$1000</td>
+                  <td>$250</td>
+                </tr>
+                <tr className="border-b border-gray-400">
+                  <td className="pl-6">7, June 2021</td>
+                  <td>30</td>
+                  <td>10</td>
+                  <td>3.0%</td>
+                  <td>3.0%</td>
+                  <td>$1000</td>
+                  <td>$250</td>
+                </tr>
+                <tr className="border-b border-gray-400">
+                  <td className="pl-6">7, June 2021</td>
+                  <td>30</td>
+                  <td>10</td>
+                  <td>3.0%</td>
+                  <td>3.0%</td>
+                  <td>$1000</td>
+                  <td>$250</td>
+                </tr>
+                <tr className="border-b border-gray-400">
+                  <td className="pl-6">7, June 2021</td>
+                  <td>30</td>
+                  <td>10</td>
+                  <td>3.0%</td>
+                  <td>3.0%</td>
+                  <td>$1000</td>
+                  <td>$250</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <button className="bg-blue-600 self-center py-2 px-4 rounded-md outline-none text-white">
             View All
           </button>
@@ -76,5 +136,3 @@ function Dashboard() {
     </>
   );
 }
-
-export default Dashboard;

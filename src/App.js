@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 
 import Home from "./pages/Home";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -11,8 +12,11 @@ function App() {
         style={{ width: "100vw" }}
       >
         <Layout>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="/products">
+            <Products />
           </Route>
         </Layout>
       </div>
