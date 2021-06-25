@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .selected {
+    @apply bg-gray-100 text-purple-800
+  }
+}
+
 .bg-invite {
   background: url(./assets/images/invite_background.png);
   background-repeat: no-repeat;

@@ -19,7 +19,7 @@ function SideBar({ show }) {
     >
       <div className="flex items-center justify-between flex-shrink-0 p-2">
         <span className="p-2 text-xl font-semibold leading-8 tracking-wider uppercase whitespace-nowrap">
-          <span>{show ? "Affliate" : "AF"}</span>
+          <span className="text-purple-500">{show ? "Affliate" : "AF"}</span>
         </span>
         <button className="p-2 z-50 rounded-md lg:hidden">
           <ChevronDoubleLeftIcon />
@@ -27,10 +27,12 @@ function SideBar({ show }) {
       </div>
 
       <nav className="flex-1 overflow-hidden hover:overflow-y-auto">
-        <ul className="p-2 overflow-hidden">
+        <ul className="p-2 space-y-5 overflow-hidden">
           <li>
             <NavLink
               to="/"
+              exact
+              activeClassName="selected"
               className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
@@ -43,6 +45,7 @@ function SideBar({ show }) {
           <li>
             <NavLink
               to="/products"
+              activeClassName="selected"
               className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
@@ -55,6 +58,7 @@ function SideBar({ show }) {
           <li>
             <NavLink
               to="/reports"
+              activeClassName="selected"
               className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
@@ -67,6 +71,7 @@ function SideBar({ show }) {
           <li>
             <NavLink
               to="/invitation"
+              activeClassName="selected"
               className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>
@@ -79,6 +84,7 @@ function SideBar({ show }) {
           <li>
             <NavLink
               to="/payment"
+              activeClassName="selected"
               className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
             >
               <span>

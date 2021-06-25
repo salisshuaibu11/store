@@ -58,7 +58,7 @@ export default function Payment() {
             <div class="w-full mb-5 relative">
                 <label htmlFor="card-number" className="font-extralight text-gray-500">Security Code</label>
                 <input
-                  type="text"
+                  type="password"
                   id="card-number"
                   className="w-full px-4 py-1 text-gray-600 border-2 border-gray-400 rounded-lg outline-none md:px-8 focus:shadow-xl"/>
                   <LockClosedIcon width={25} className="text-gray-600 absolute top-7 right-4"/>

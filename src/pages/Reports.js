@@ -1,6 +1,10 @@
-import ClickIcon from "../assets/icons/click.svg";
-import OrderIcon from "../assets/icons/product.svg";
-import SalesIcon from "../assets/icons/sales.svg";
+import TotalProductIcon from "../assets/icons/product.svg";
+import TotalOrderIcon from "../assets/icons/product.svg";
+import TotalSalesIcon from "../assets/icons/success.svg";
+import TotalPendingIcon from "../assets/icons/pending.svg";
+import TotalCancelIcon from "../assets/icons/cancel.svg";
+import TotalWithdrawIcon from "../assets/icons/withdraw.svg";
+import TotalPendingWithdrawIcon from "../assets/icons/pendingWithdraw.svg";
 import CommissionIcon from "../assets/icons/commision_icon.svg";
 
 import Laptop from "../assets/images/laptop.png";
@@ -20,79 +24,94 @@ export default function Reports() {
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
-              <div className="bg-blue-500 flex justify-center items-center w-10 h-8 rounded-lg">
-                <img src={ClickIcon} alt="How many clicked icon" />
+              <div className="bg-pink-500 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={TotalProductIcon} alt="Total Product icon" />
               </div>
-              <span className="text-lg font-semibold">click</span>
+              <span className="text-md font-semibold">Total Product</span>
             </div>
-            <span className="text-2xl ml-24">300</span>
+            <span className="text-2xl ml-24">3</span>
           </div>
         </article>
+
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
               <div className="bg-yellow-300 flex justify-center items-center w-10 h-8 rounded-lg">
-                <img src={OrderIcon} alt="Order" />
+                <img src={TotalOrderIcon} alt="Total Order icon" />
               </div>
-              <span className="text-lg font-semibold">Order</span>
+              <span className="text-md font-semibold">Total Order</span>
+            </div>
+            <span className="text-2xl ml-24">182</span>
+          </div>
+        </article>
+
+        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
+          <div className="flex items-start flex-col justify-between">
+            <div className="flex space-x-3 items-center">
+              <div className="bg-green-600 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={TotalSalesIcon} alt="Total sales icon" />
+              </div>
+              <span className="text-md font-semibold">Sales Success</span>
             </div>
             <span className="text-2xl ml-24">175</span>
           </div>
         </article>
+
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
               <div className="bg-blue-600 flex justify-center items-center w-10 h-8 rounded-lg">
-                <img src={SalesIcon} alt="How many clicked icon" />
+                <img src={TotalPendingIcon} alt="Total pendings icon" />
               </div>
-              <span className="text-lg font-semibold">Total Sales</span>
+              <span className="text-md font-semibold">Pending</span>
             </div>
-            <span className="text-2xl ml-24">88</span>
+            <span className="text-2xl ml-24">5</span>
           </div>
         </article>
+
+        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
+          <div className="flex items-start flex-col justify-between">
+            <div className="flex space-x-3 items-center">
+              <div className="bg-blue-600 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={TotalCancelIcon} alt="Total cancel icon" />
+              </div>
+              <span className="text-md font-semibold">Cancel Order</span>
+            </div>
+            <span className="text-2xl ml-24">2</span>
+          </div>
+        </article>
+
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
               <img src={CommissionIcon} alt="How many clicked icon" />
-              <span className="text-lg font-semibold">Commission</span>
+              <span className="text-md font-semibold">Commission</span>
             </div>
-            <span className="text-2xl ml-24">$8,777</span>
+            <span className="text-2xl ml-24">$7262</span>
           </div>
         </article>
+
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
-              <img src={CommissionIcon} alt="How many clicked icon" />
-              <span className="text-lg font-semibold">Commission</span>
+              <div className="bg-blue-600 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={TotalWithdrawIcon} alt="Total Withdraw" />
+              </div>
+              <span className="text-md font-semibold">Withdraw</span>
             </div>
-            <span className="text-2xl ml-24">$8,777</span>
+            <span className="text-2xl ml-24">$120</span>
           </div>
         </article>
+
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
-              <img src={CommissionIcon} alt="How many clicked icon" />
-              <span className="text-lg font-semibold">Commission</span>
+              <div className="bg-blue-600 flex justify-center items-center w-10 h-8 rounded-lg">
+                <img src={TotalPendingWithdrawIcon} alt="Total pending withdraw icon" />
+              </div>
+              <span className="text-md font-semibold">Pending Withdraw</span>
             </div>
-            <span className="text-2xl ml-24">$8,777</span>
-          </div>
-        </article>
-        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
-          <div className="flex items-start flex-col justify-between">
-            <div className="flex space-x-3 items-center">
-              <img src={CommissionIcon} alt="How many clicked icon" />
-              <span className="text-lg font-semibold">Commission</span>
-            </div>
-            <span className="text-2xl ml-24">$8,777</span>
-          </div>
-        </article>
-        <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
-          <div className="flex items-start flex-col justify-between">
-            <div className="flex space-x-3 items-center">
-              <img src={CommissionIcon} alt="How many clicked icon" />
-              <span className="text-lg font-semibold">Commission</span>
-            </div>
-            <span className="text-2xl ml-24">$8,777</span>
+            <span className="text-2xl ml-24">$50</span>
           </div>
         </article>
       </div>
@@ -107,7 +126,7 @@ export default function Reports() {
           </select>
           <div>
             <table className="h-64 w-full mb-5">
-              <thead className="border-b border-gray-400">
+              <thead className="border-b border-gray-400 text-gray-500 font-thin">
                 <tr>
                   <th className="text-left pl-6">Active Products</th>
                   <th className="text-left">Total Click</th>
@@ -118,7 +137,7 @@ export default function Reports() {
               </thead>
               <tbody>
                 <tr className="border-b border-gray-400">
-                  <td className="flex space-x-3 pl-5">
+                  <td className="flex space-x-3 p-3">
                     <img className="rounded-full" src={Laptop} alt="Laptop" />
                     <div>
                       <span className="block font-bold">
@@ -132,16 +151,16 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-5 flex items-center">
-                    <EyeIcon width={20} className="cursor-pointer" />
+                  <td className="space-x-3">
+                    <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
-                      className="text-red-500 cursor-pointer"
+                      className="text-red-500 cursor-pointer inline-block"
                     />
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
-                  <td className="flex space-x-3 pl-5">
+                  <td className="flex space-x-3 p-3">
                     <img className="rounded-full" src={Laptop} alt="Laptop" />
                     <div>
                       <span className="block font-bold">
@@ -155,16 +174,16 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-5 flex items-center">
-                    <EyeIcon width={20} className="cursor-pointer" />
+                  <td className="space-x-3">
+                    <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
-                      className="text-red-500 cursor-pointer"
+                      className="text-red-500 cursor-pointer inline-block"
                     />
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
-                  <td className="flex space-x-3 pl-5">
+                  <td className="flex space-x-3 p-3">
                     <img className="rounded-full" src={Laptop} alt="Laptop" />
                     <div>
                       <span className="block font-bold">
@@ -178,11 +197,80 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-5 flex items-center">
-                    <EyeIcon width={20} className="cursor-pointer" />
+                  <td className="space-x-3">
+                    <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
-                      className="text-red-500 cursor-pointer"
+                      className="text-red-500 cursor-pointer inline-block"
+                    />
+                  </td>
+                </tr>
+                <tr className="border-b border-gray-400">
+                  <td className="flex space-x-3 p-3">
+                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <div>
+                      <span className="block font-bold">
+                        Laptop-AsusMX456GM
+                      </span>
+                      <span className="block font-light">
+                        Core i7 Gen 11, Ram 16 Gb
+                      </span>
+                    </div>
+                  </td>
+                  <td>300</td>
+                  <td>1500</td>
+                  <td>$6000</td>
+                  <td className="space-x-3">
+                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <TrashIcon
+                      width={20}
+                      className="text-red-500 cursor-pointer inline-block"
+                    />
+                  </td>
+                </tr>
+                <tr className="border-b border-gray-400">
+                  <td className="flex space-x-3 p-3">
+                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <div>
+                      <span className="block font-bold">
+                        Laptop-AsusMX456GM
+                      </span>
+                      <span className="block font-light">
+                        Core i7 Gen 11, Ram 16 Gb
+                      </span>
+                    </div>
+                  </td>
+                  <td>300</td>
+                  <td>1500</td>
+                  <td>$6000</td>
+                  <td className="space-x-3">
+                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <TrashIcon
+                      width={20}
+                      className="text-red-500 cursor-pointer inline-block"
+                    />
+                  </td>
+                </tr>
+                <tr className="border-b border-gray-400">
+                  <td className="flex space-x-3 p-3">
+                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <div>
+                      <span className="block font-bold">
+                        Laptop-AsusMX456GM
+                      </span>
+                      <span className="block font-light">
+                        Core i7 Gen 11, Ram 16 Gb
+                      </span>
+                    </div>
+                  </td>
+                  <td>300</td>
+                  <td>1500</td>
+                  <td>$6000</td>
+                  <td className="space-x-3">
+                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <TrashIcon
+                      width={20}
+                      className="text-red-500 cursor-pointer inline-block"
                     />
                   </td>
                 </tr>

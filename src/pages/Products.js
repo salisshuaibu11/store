@@ -6,7 +6,7 @@ export default function Products() {
       <h2 className="font-bold text-xl mb-10">Products</h2>
       <div>
         <div className="mb-3">
-          <button className="bg-blue-600 py-2 px-5 rounded-md text-white">
+          <button className="bg-purple-800 py-2 px-5 rounded-md text-white">
             All
           </button>
           <button className="py-2 px-5 rounded-md font-light">
@@ -21,9 +21,9 @@ export default function Products() {
         </div>
         <div className="shadow-lg w-full py-4 bg-white rounded-md">
           <table className="w-full mb-5">
-            <thead className="border-b border-gray-400">
-              <tr className="font-light">
-                <th className="text-left pl-6">Product Name</th>
+            <thead className="border-b border-gray-800">
+              <tr className="font-light space-x-10 text-gray-300 font-bold">
+                <th className="text-left p-3">Product Name</th>
                 <th className="text-left">Product Price</th>
                 <th className="text-left">Commission Sales</th>
                 <th className="text-left">Affliate Referral Link</th>
@@ -31,7 +31,7 @@ export default function Products() {
             </thead>
             <tbody>
               <tr className="border-b border-gray-300">
-                <td className="flex space-x-3 pl-5">
+                <td className="flex space-x-3 p-3">
                   <img className="rounded-full" src={Laptop} alt="Laptop" />
                   <div>
                     <span className="block font-bold">Laptop-AsusMX456GM</span>
@@ -49,13 +49,13 @@ export default function Products() {
                     value="http://AsusMx/4548"
                     contentEditable={false}
                   />
-                  <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
+                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
                     Copy Link
                   </button>
                 </td>
               </tr>
               <tr className="border-b border-gray-300">
-                <td className="flex space-x-3 pl-5">
+                <td className="flex space-x-3 p-3">
                   <img className="rounded-full" src={Laptop} alt="Laptop" />
                   <div>
                     <span className="block font-bold">Laptop-AsusMX456GM</span>
@@ -73,13 +73,13 @@ export default function Products() {
                     value="http://AsusMx/4548"
                     contentEditable={false}
                   />
-                  <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
+                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
                     Copy Link
                   </button>
                 </td>
               </tr>
               <tr className="border-b border-gray-300">
-                <td className="flex space-x-3 pl-5">
+                <td className="flex space-x-3 p-3">
                   <img className="rounded-full" src={Laptop} alt="Laptop" />
                   <div>
                     <span className="block font-bold">Laptop-AsusMX456GM</span>
@@ -97,13 +97,13 @@ export default function Products() {
                     value="http://AsusMx/4548"
                     contentEditable={false}
                   />
-                  <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
+                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
                     Copy Link
                   </button>
                 </td>
               </tr>
               <tr className="border-b border-gray-300">
-                <td className="flex space-x-3 pl-5">
+                <td className="flex space-x-3 p-3">
                   <img className="rounded-full" src={Laptop} alt="Laptop" />
                   <div>
                     <span className="block font-bold">Laptop-AsusMX456GM</span>
@@ -121,13 +121,13 @@ export default function Products() {
                     value="http://AsusMx/4548"
                     contentEditable={false}
                   />
-                  <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
+                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
                     Copy Link
                   </button>
                 </td>
               </tr>
               <tr className="border-b border-gray-300">
-                <td className="flex space-x-3 pl-5">
+                <td className="flex space-x-3 p-3">
                   <img className="rounded-full" src={Laptop} alt="Laptop" />
                   <div>
                     <span className="block font-bold">Laptop-AsusMX456GM</span>
@@ -145,13 +145,13 @@ export default function Products() {
                     value="http://AsusMx/4548"
                     contentEditable={false}
                   />
-                  <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
+                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
                     Copy Link
                   </button>
                 </td>
               </tr>
               <tr className="border-b border-gray-300">
-                <td className="flex space-x-3 pl-5">
+                <td className="flex space-x-3 p-3">
                   <img className="rounded-full" src={Laptop} alt="Laptop" />
                   <div>
                     <span className="block font-bold">Laptop-AsusMX456GM</span>
@@ -169,7 +169,7 @@ export default function Products() {
                     value="http://AsusMx/4548"
                     contentEditable={false}
                   />
-                  <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
+                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
                     Copy Link
                   </button>
                 </td>
