@@ -109,11 +109,11 @@ export default function Reports() {
             <table className="h-64 w-full mb-5">
               <thead className="border-b border-gray-400">
                 <tr>
-                  <th>Active Products</th>
-                  <th>Total Click</th>
-                  <th>Total Order</th>
-                  <th>Total Commisions</th>
-                  <th>Action</th>
+                  <th className="text-left pl-6">Active Products</th>
+                  <th className="text-left">Total Click</th>
+                  <th className="text-left">Total Order</th>
+                  <th className="text-left">Total Commisions</th>
+                  <th className="text-left">Action</th>
                 </tr>
               </thead>
               <tbody>

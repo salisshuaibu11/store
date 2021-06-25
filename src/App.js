@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Reports from "./pages/Reports";
 import Invitation from "./pages/Invitation";
+import Payment from "./pages/Payment";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/invitation">
             <Invitation />
+          </Route>
+          <Route path="/payment">
+            <Payment />
           </Route>
         </Layout>
       </div>

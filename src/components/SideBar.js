@@ -5,8 +5,8 @@ import {
   TrendingUpIcon,
   UserAddIcon,
   ViewGridIcon,
+  CreditCardIcon,
 } from "@heroicons/react/outline";
-import NavBar from "./NavBar";
 
 // initial width = 64
 
@@ -73,6 +73,18 @@ function SideBar({ show }) {
                 <UserAddIcon width={25} />
               </span>
               <span className={`${show ? "block" : "hidden"}`}>Invitation</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/payment"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            >
+              <span>
+                <CreditCardIcon width={25} />
+              </span>
+              <span className={`${show ? "block" : "hidden"}`}>Payment</span>
             </NavLink>
           </li>
         </ul>

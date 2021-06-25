@@ -23,10 +23,10 @@ export default function Products() {
           <table className="w-full mb-5">
             <thead className="border-b border-gray-400">
               <tr className="font-light">
-                <th>Product Name</th>
-                <th>Product Price</th>
-                <th>Commission Sales</th>
-                <th>Affliate Referral Link</th>
+                <th className="text-left pl-6">Product Name</th>
+                <th className="text-left">Product Price</th>
+                <th className="text-left">Commission Sales</th>
+                <th className="text-left">Affliate Referral Link</th>
               </tr>
             </thead>
             <tbody>

@@ -79,12 +79,12 @@ export default function Dashboard() {
             <table className="h-64 w-full mb-5">
               <thead className="border-b border-gray-400">
                 <tr>
-                  <th>Data</th>
-                  <th>Click</th>
-                  <th>Order</th>
-                  <th>Presentase</th>
-                  <th>Total sales</th>
-                  <th>Commision</th>
+                  <th className="text-left pl-6">Data</th>
+                  <th className="text-left">Click</th>
+                  <th className="text-left">Order</th>
+                  <th className="text-left">Presentase</th>
+                  <th className="text-left">Total sales</th>
+                  <th className="text-left">Commision</th>
                 </tr>
               </thead>
               <tbody>
