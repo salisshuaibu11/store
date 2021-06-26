@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 
 import {
-  ChevronDoubleLeftIcon,
   TrendingUpIcon,
   UserAddIcon,
   ViewGridIcon,
@@ -21,9 +20,6 @@ function SideBar({ show }) {
         <span className="p-2 text-xl font-semibold leading-8 tracking-wider uppercase whitespace-nowrap">
           <span className="text-purple-500">{show ? "Affliate" : "AF"}</span>
         </span>
-        <button className="p-2 z-50 rounded-md lg:hidden">
-          <ChevronDoubleLeftIcon />
-        </button>
       </div>
 
       <nav className="flex-1 overflow-hidden hover:overflow-y-auto">
@@ -65,6 +61,58 @@ function SideBar({ show }) {
                 <TrendingUpIcon width={25} />
               </span>
               <span className={`${show ? "block" : "hidden"}`}>Reports</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/reportsone"
+              activeClassName="selected"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            >
+              <span>
+                <TrendingUpIcon width={25} />
+              </span>
+              <span className={`${show ? "block" : "hidden"}`}>Reports One</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/reportstwo"
+              activeClassName="selected"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            >
+              <span>
+                <TrendingUpIcon width={25} />
+              </span>
+              <span className={`${show ? "block" : "hidden"}`}>Reports Two</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/reportsthree"
+              activeClassName="selected"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            >
+              <span>
+                <TrendingUpIcon width={25} />
+              </span>
+              <span className={`${show ? "block" : "hidden"}`}>Reports Three</span>
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/reportsfour"
+              activeClassName="selected"
+              className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
+            >
+              <span>
+                <TrendingUpIcon width={25} />
+              </span>
+              <span className={`${show ? "block" : "hidden"}`}>Reports Four</span>
             </NavLink>
           </li>
 

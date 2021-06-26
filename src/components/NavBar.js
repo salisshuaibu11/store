@@ -8,16 +8,13 @@ import Salisu from "../assets/images/salisu.jpg";
 
 function NavBar({ chevronClicked, show }) {
   return (
-    <header className="flex-shrink-0 border-b bg-white">
+    <header className="flex-shrink-1 border-b bg-white">
       <div className="flex items-center justify-between p-2">
         {/* Navbar Left */}
         <div className="flex items-center space-x-3">
-          <span className="p-2 text-xl font-semibold tracking-wider uppercase lg:hidden">
-            Lilo Software
-          </span>
           <button
             onClick={chevronClicked}
-            className="p-2 rounded-md focus:outline-none focus:ring"
+            className={`p-2 bg-red-200 rounded-md focus:outline-none focus:ring`}
           >
             {show ? (
               <ChevronDoubleLeftIcon width={30} />
@@ -29,7 +26,7 @@ function NavBar({ chevronClicked, show }) {
 
         {/* Navbar Right */}
         <div className="relative flex items-center space-x-3">
-          <div className="items-center hidden space-x-3 md:flex">
+          <div className="items-center space-x-3 flex">
             {/*Notification Button */}
             <div className="relative">
               <div className="absolute right-0 p-1 bg-red-400 rounded-full animate-ping"></div>
@@ -49,8 +46,8 @@ function NavBar({ chevronClicked, show }) {
                 />
               </button>
               {/* Green dots */}
-              <div class="absolute right-0 p-1 bg-green-400 rounded-full bottom-3 animate-ping"></div>
-              <div class="absolute right-0 p-1 bg-green-400 border border-white rounded-full bottom-3"></div>
+              <div className="absolute right-0 p-1 bg-green-400 rounded-full bottom-3 animate-ping"></div>
+              <div className="absolute right-0 p-1 bg-green-400 border border-white rounded-full bottom-3"></div>
             </div>
           </div>
         </div>

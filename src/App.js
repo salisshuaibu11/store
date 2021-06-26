@@ -3,7 +3,13 @@ import Layout from "./components/Layout/Layout";
 
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+
 import Reports from "./pages/Reports";
+import ReportsOne from "./pages/ReportsOne";
+import ReportsTwo from "./pages/ReportsTwo";
+import ReportsThree from "./pages/ReportsThree";
+import ReportsFour from "./pages/ReportsFour";
+
 import Invitation from "./pages/Invitation";
 import Payment from "./pages/Payment";
 
@@ -23,6 +29,18 @@ function App() {
           </Route>
           <Route path="/reports">
             <Reports />
+          </Route>
+          <Route path="/reportsone">
+            <ReportsOne />
+          </Route>
+          <Route path="/reportstwo">
+            <ReportsTwo />
+          </Route>
+          <Route path="/reportsthree">
+            <ReportsThree />
+          </Route>
+          <Route path="/reportsfour">
+            <ReportsFour />
           </Route>
           <Route path="/invitation">
             <Invitation />

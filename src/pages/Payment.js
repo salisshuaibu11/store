@@ -5,7 +5,7 @@ export default function Payment() {
     <>
       {/* Main content header */}
       <div className="flex flex-col items-start justify-between pb-6 space-y-4 border-b lg:items-center lg:space-y-0 lg:flex-row">
-        <h1 class="text-xl font-semibold whitespace-nowrap">
+        <h1 className="text-xl font-semibold whitespace-nowrap">
           Payment
         </h1>
       </div>
@@ -25,7 +25,7 @@ export default function Payment() {
           </div>
           <p className="px-4 mb-3 mt-2">This is the <span className="font-bold">card number</span> that will be used every month</p>
           <span className="px-4 font-bold">Card Information</span>
-          <form className="px-4 mt-3 w-2/5">
+          <form className="px-4 mt-3 md:w-2/5 w-full">
             <div class="w-full mb-5">
                 <label htmlFor="card-number" className="font-extralight text-gray-500">Card Number</label>
                 <input
@@ -34,7 +34,7 @@ export default function Payment() {
                   className="w-full px-4 py-1 text-gray-600 border-2 border-gray-400 rounded-lg outline-none md:px-8 focus:shadow-xl"/>
             </div>
 
-            <div class="w-3/5 mb-5">
+            <div class="w-full md:w-3/5 mb-5">
                 <label htmlFor="card-number" className="font-extralight text-gray-500">Expiration Date</label>
                 <div className="flex items-center justify-between">
                 <div className="w-24">
