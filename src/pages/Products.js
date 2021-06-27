@@ -19,8 +19,8 @@ export default function Products() {
             High Compensations
           </button>
         </div>
-        <div className="shadow-lg container py-4 bg-white rounded-md">
-          <table className="w-full flex flex-row flex-no-wrap rounded-lg overflow-hidden sm:shadow-lg my-5">
+        <div className="shadow-lg w-full py-4 bg-white rounded-md">
+          <table className="w-full mb-5">
             <thead className="border-b border-gray-800">
               <tr className="font-light space-x-10 text-gray-300 font-bold">
                 <th className="text-left p-3">Product Name</th>
@@ -29,8 +29,8 @@ export default function Products() {
                 <th className="text-left">Affliate Referral Link</th>
               </tr>
             </thead>
-            <tbody className="w-full">
-              <tr className="border-b border-gray-300 flex items-center justify-between bg-red-200">
+            <tbody>
+              <tr className="border-b border-gray-300">
                 <td className="flex space-x-3 p-3">
                   <img className="rounded-full" src={Laptop} alt="Laptop" />
                   <div>
@@ -73,7 +73,7 @@ export default function Products() {
                     value="http://AsusMx/4548"
                     contentEditable={false}
                   />
-                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-12">
+                  <button className="bg-purple-800 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute right-36">
                     Copy Link
                   </button>
                 </td>

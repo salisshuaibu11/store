@@ -75,8 +75,7 @@ export default function Dashboard() {
       <div>
         <span className="text-xl mt-5 block">Detail Order</span>
         <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
-          <div>
-            <table className="h-64 w-full mb-5">
+            <table className="min-w-full overflow-x-scroll mb-5">
               <thead className="border-b border-gray-400">
                 <tr>
                   <th className="text-left pl-6">Data</th>
@@ -95,7 +94,6 @@ export default function Dashboard() {
                   <td>3.0%</td>
                   <td>3.0%</td>
                   <td>$1000</td>
-                  <td>$250</td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="pl-6">7, June 2021</td>
@@ -104,7 +102,6 @@ export default function Dashboard() {
                   <td>3.0%</td>
                   <td>3.0%</td>
                   <td>$1000</td>
-                  <td>$250</td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="pl-6">7, June 2021</td>
@@ -113,7 +110,6 @@ export default function Dashboard() {
                   <td>3.0%</td>
                   <td>3.0%</td>
                   <td>$1000</td>
-                  <td>$250</td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="pl-6">7, June 2021</td>
@@ -122,11 +118,9 @@ export default function Dashboard() {
                   <td>3.0%</td>
                   <td>3.0%</td>
                   <td>$1000</td>
-                  <td>$250</td>
                 </tr>
               </tbody>
             </table>
-          </div>
           <button className="bg-blue-600 self-center py-2 px-4 rounded-md outline-none text-white">
             View All
           </button>

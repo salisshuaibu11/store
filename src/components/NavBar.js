@@ -11,10 +11,10 @@ function NavBar({ chevronClicked, show }) {
     <header className="flex-shrink-1 border-b bg-white">
       <div className="flex items-center justify-between p-2">
         {/* Navbar Left */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center">
           <button
             onClick={chevronClicked}
-            className={`p-2 bg-red-200 rounded-md focus:outline-none focus:ring`}
+            className={`p-2 rounded-md focus:outline-none focus:ring`}
           >
             {show ? (
               <ChevronDoubleLeftIcon width={30} />
