@@ -10,7 +10,7 @@ export default function Invitation() {
       {/* Start content */}
 
       {/* ========== Detail Order ========== */}
-      <div className="py-10 bg-invite px-36 flex flex-col text-white items-center justify-center bg-blue-600 bg-blend-multiply rounded-md">
+      <div className="py-10 invite px-36 flex flex-col text-white items-center justify-center bg-blue-600 bg-blend-multiply rounded-md">
         <div className="flex flex-col justify-center items-center py-2">
         <h2 className="text-2xl text-center font-extrabold">
           Invite Friends and Earn Active Commission

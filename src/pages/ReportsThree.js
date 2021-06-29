@@ -1,25 +1,15 @@
-// import TotalProductIcon from "../assets/icons/product.svg";
-// import TotalOrderIcon from "../assets/icons/product.svg";
-// import TotalSalesIcon from "../assets/icons/success.svg";
-// import TotalPendingIcon from "../assets/icons/pending.svg";
-// import TotalCancelIcon from "../assets/icons/cancel.svg";
-// import TotalWithdrawIcon from "../assets/icons/withdraw.svg";
-// import TotalPendingWithdrawIcon from "../assets/icons/pendingWithdraw.svg";
-// import CommissionIcon from "../assets/icons/commision_icon.svg";
-
 import Laptop from "../assets/images/laptop.png";
-
-//import { EyeIcon, TrashIcon } from "@heroicons/react/outline";
 
 export default function ReportsThree() {
   return (
     <>
-
       {/* ========== Detail Order ========== */}
       <div>
         <span className="text-lg font-bold my-5 block">Total Order</span>
         <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
-          <h3 className="text-purple-800 text-center mb-5 font-extrabold">"182 Products data found"</h3>
+          <h3 className="text-purple-800 text-center mb-5 font-extrabold">
+            "182 Products data found"
+          </h3>
           <select className="outline-none mt-2 mb-5 ml-5 border border-blue-600 rounded-md py-2 px-4 w-48 bg-white">
             <option value="Seven Days">Show Last 7 Days</option>
           </select>
@@ -37,12 +27,16 @@ export default function ReportsThree() {
               <tbody>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -51,17 +45,23 @@ export default function ReportsThree() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-purple-800 px-4 py-1 rounded-lg">Success</button>
+                    <button className="text-white bg-purple-800 w-24 py-2 rounded-lg">
+                      Success
+                    </button>
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -70,17 +70,23 @@ export default function ReportsThree() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-red-500 px-4 py-1 rounded-lg">Canceled</button>
+                    <button className="text-white bg-red-500 w-24 px-4 py-2 rounded-lg">
+                      Canceled
+                    </button>
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -89,7 +95,9 @@ export default function ReportsThree() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-300 px-4 py-1 rounded-lg">Pending</button>
+                    <button className="text-white bg-yellow-300 w-24 px-4 py-2 rounded-lg">
+                      Pending
+                    </button>
                   </td>
                 </tr>
               </tbody>

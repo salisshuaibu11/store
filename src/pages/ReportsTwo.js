@@ -3,12 +3,13 @@ import Laptop from "../assets/images/laptop.png";
 export default function ReportsTwo() {
   return (
     <>
-
       {/* ========== Detail Order ========== */}
       <div>
         <span className="text-xl my-5 block">Total Order</span>
         <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
-          <h3 className="text-purple-800 text-center mb-5 font-extrabold">"2 Products data found"</h3>
+          <h3 className="text-purple-800 text-center mb-5 font-extrabold">
+            "2 Products data found"
+          </h3>
           <select className="outline-none mt-2 mb-5 ml-5 border border-blue-600 rounded-md py-2 px-4 w-48 bg-white">
             <option value="Seven Days">Show Last 7 Days</option>
           </select>
@@ -26,12 +27,16 @@ export default function ReportsTwo() {
               <tbody>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -40,17 +45,23 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-1 rounded-lg">Cancelled</button>
+                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                      Cancelled
+                    </button>
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -59,17 +70,23 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-1 rounded-lg">Cancelled</button>
+                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                      Cancelled
+                    </button>
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -78,17 +95,23 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-1 rounded-lg">Cancelled</button>
+                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                      Cancelled
+                    </button>
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -97,17 +120,23 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-1 rounded-lg">Cancelled</button>
+                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                      Cancelled
+                    </button>
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -116,17 +145,23 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-1 rounded-lg">Cancelled</button>
+                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                      Cancelled
+                    </button>
                   </td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -135,7 +170,9 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-1 rounded-lg">Cancelled</button>
+                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                      Cancelled
+                    </button>
                   </td>
                 </tr>
               </tbody>

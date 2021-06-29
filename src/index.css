@@ -8,8 +8,8 @@
   }
 }
 
-.bg-invite {
-  background: url(./assets/images/invite_background.png);
+.invite {
+  background-image: url(./assets/images/invite_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

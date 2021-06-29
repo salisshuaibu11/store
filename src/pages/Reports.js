@@ -138,12 +138,12 @@ export default function Reports() {
               <tbody>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -151,7 +151,7 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-3">
+                  <td className="space-x-2 lg:space-x-4 md:space-x-4">
                     <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
@@ -161,12 +161,12 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -174,7 +174,7 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-3">
+                  <td className="space-x-2 lg:space-x-4 md:space-x-4">
                     <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
@@ -184,12 +184,12 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -197,7 +197,7 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-3">
+                  <td className="space-x-2 lg:space-x-4 md:space-x-4">
                     <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
@@ -207,12 +207,12 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -220,7 +220,7 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-3">
+                  <td className="space-x-2 lg:space-x-4 md:space-x-4">
                     <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
@@ -230,12 +230,12 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -243,7 +243,7 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-3">
+                  <td className="space-x-2 lg:space-x-4 md:space-x-4">
                     <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
@@ -253,12 +253,12 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full" src={Laptop} alt="Laptop" />
+                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
                     <div>
-                      <span className="block font-bold">
+                      <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
                       </span>
-                      <span className="block font-light">
+                      <span className="block font-light break-words">
                         Core i7 Gen 11, Ram 16 Gb
                       </span>
                     </div>
@@ -266,7 +266,7 @@ export default function Reports() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-3">
+                  <td className="space-x-2 lg:space-x-4 md:space-x-4">
                     <EyeIcon width={20} className="cursor-pointer inline-block" />
                     <TrashIcon
                       width={20}
@@ -277,7 +277,7 @@ export default function Reports() {
               </tbody>
             </table>
           </div>
-          <button className="bg-blue-600 self-center py-2 px-4 rounded-md outline-none text-white">
+          <button className="bg-purple-600 self-center py-2 px-4 rounded-md outline-none text-white">
             View All
           </button>
         </div>

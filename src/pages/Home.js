@@ -121,7 +121,7 @@ export default function Dashboard() {
                 </tr>
               </tbody>
             </table>
-          <button className="bg-blue-600 self-center py-2 px-4 rounded-md outline-none text-white">
+          <button className="bg-purple-800 self-center py-2 px-4 rounded-md outline-none text-white">
             View All
           </button>
         </div>

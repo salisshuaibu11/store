@@ -6,7 +6,7 @@ import {
   UserAddIcon,
   ViewGridIcon,
   CreditCardIcon,
-  XIcon
+  XIcon,
 } from "@heroicons/react/outline";
 
 // initial width = 64
@@ -23,7 +23,11 @@ function SideBar({ show, closed }) {
           <span className="p-2 text-xl font-semibold leading-8 tracking-wider uppercase whitespace-nowrap">
             <span className="text-purple-500">{show ? "Affliate" : "AF"}</span>
           </span>
-          <XIcon width={20} className="lg:hidden block cursor-pointer" onClick={closed}/>
+          <XIcon
+            width={20}
+            className="lg:hidden block cursor-pointer"
+            onClick={closed}
+          />
         </div>
 
         <nav className="flex-1 overflow-hidden hover:overflow-y-auto">
@@ -36,9 +40,11 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <ViewGridIcon width={25} />
+                  <ViewGridIcon width={22} />
                 </span>
-                <span className={`${show ? "block" : "hidden"}`}>Dashboard</span>
+                <span className={`${show ? "block" : "hidden"}`}>
+                  Dashboard
+                </span>
               </NavLink>
             </li>
 
@@ -49,7 +55,7 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <ViewGridIcon width={25} />
+                  <ViewGridIcon width={22} />
                 </span>
                 <span className={`${show ? "block" : "hidden"}`}>Products</span>
               </NavLink>
@@ -61,8 +67,8 @@ function SideBar({ show, closed }) {
                 activeClassName="selected"
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
-                <span className="border p-2 rounded-full">
-                  <TrendingUpIcon width={20} />
+                <span>
+                  <TrendingUpIcon width={22} className="" />
                 </span>
                 <span className={`${show ? "block" : "hidden"}`}>Reports</span>
               </NavLink>
@@ -75,9 +81,11 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <TrendingUpIcon width={25} />
+                  <TrendingUpIcon width={22} />
                 </span>
-                <span className={`${show ? "block" : "hidden"}`}>Reports One</span>
+                <span className={`${show ? "block" : "hidden"}`}>
+                  Reports One
+                </span>
               </NavLink>
             </li>
 
@@ -88,9 +96,11 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <TrendingUpIcon width={25} />
+                  <TrendingUpIcon width={22} />
                 </span>
-                <span className={`${show ? "block" : "hidden"}`}>Reports Two</span>
+                <span className={`${show ? "block" : "hidden"}`}>
+                  Reports Two
+                </span>
               </NavLink>
             </li>
 
@@ -101,9 +111,11 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <TrendingUpIcon width={25} />
+                  <TrendingUpIcon width={22} />
                 </span>
-                <span className={`${show ? "block" : "hidden"}`}>Reports Three</span>
+                <span className={`${show ? "block" : "hidden"}`}>
+                  Reports Three
+                </span>
               </NavLink>
             </li>
 
@@ -114,9 +126,11 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <TrendingUpIcon width={25} />
+                  <TrendingUpIcon width={22} />
                 </span>
-                <span className={`${show ? "block" : "hidden"}`}>Reports Four</span>
+                <span className={`${show ? "block" : "hidden"}`}>
+                  Reports Four
+                </span>
               </NavLink>
             </li>
 
@@ -127,9 +141,11 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <UserAddIcon width={25} />
+                  <UserAddIcon width={22} />
                 </span>
-                <span className={`${show ? "block" : "hidden"}`}>Invitation</span>
+                <span className={`${show ? "block" : "hidden"}`}>
+                  Invitation
+                </span>
               </NavLink>
             </li>
 
@@ -140,7 +156,7 @@ function SideBar({ show, closed }) {
                 className="flex items-center p-2 space-x-2 rounded-md hover:bg-gray-100"
               >
                 <span>
-                  <CreditCardIcon width={25} />
+                  <CreditCardIcon width={22} />
                 </span>
                 <span className={`${show ? "block" : "hidden"}`}>Payment</span>
               </NavLink>
