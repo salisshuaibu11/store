@@ -107,7 +107,10 @@ export default function Reports() {
           <div className="flex items-start flex-col justify-between">
             <div className="flex space-x-3 items-center">
               <div className="bg-blue-600 flex justify-center items-center w-10 h-8 rounded-lg">
-                <img src={TotalPendingWithdrawIcon} alt="Total pending withdraw icon" />
+                <img
+                  src={TotalPendingWithdrawIcon}
+                  alt="Total pending withdraw icon"
+                />
               </div>
               <span className="text-md font-semibold">Pending Withdraw</span>
             </div>
@@ -117,7 +120,7 @@ export default function Reports() {
       </div>
       {/* ========== Start content end ========= */}
 
-      {/* ========== Detail Order ========== */}
+      {/* ========== Product Sale Details Start ========== */}
       <div>
         <span className="text-xl mt-5 block">Product Sale Details</span>
         <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
@@ -138,7 +141,11 @@ export default function Reports() {
               <tbody>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
                       <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
@@ -152,7 +159,10 @@ export default function Reports() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td className="space-x-2 lg:space-x-4 md:space-x-4">
-                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <EyeIcon
+                      width={20}
+                      className="cursor-pointer inline-block"
+                    />
                     <TrashIcon
                       width={20}
                       className="text-red-500 cursor-pointer inline-block"
@@ -161,7 +171,11 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
                       <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
@@ -175,7 +189,10 @@ export default function Reports() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td className="space-x-2 lg:space-x-4 md:space-x-4">
-                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <EyeIcon
+                      width={20}
+                      className="cursor-pointer inline-block"
+                    />
                     <TrashIcon
                       width={20}
                       className="text-red-500 cursor-pointer inline-block"
@@ -184,7 +201,11 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
                       <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
@@ -198,7 +219,10 @@ export default function Reports() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td className="space-x-2 lg:space-x-4 md:space-x-4">
-                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <EyeIcon
+                      width={20}
+                      className="cursor-pointer inline-block"
+                    />
                     <TrashIcon
                       width={20}
                       className="text-red-500 cursor-pointer inline-block"
@@ -207,7 +231,11 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
                       <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
@@ -221,7 +249,10 @@ export default function Reports() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td className="space-x-2 lg:space-x-4 md:space-x-4">
-                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <EyeIcon
+                      width={20}
+                      className="cursor-pointer inline-block"
+                    />
                     <TrashIcon
                       width={20}
                       className="text-red-500 cursor-pointer inline-block"
@@ -230,7 +261,11 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
                       <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
@@ -244,7 +279,10 @@ export default function Reports() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td className="space-x-2 lg:space-x-4 md:space-x-4">
-                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <EyeIcon
+                      width={20}
+                      className="cursor-pointer inline-block"
+                    />
                     <TrashIcon
                       width={20}
                       className="text-red-500 cursor-pointer inline-block"
@@ -253,7 +291,11 @@ export default function Reports() {
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex space-x-3 p-3">
-                    <img className="rounded-full max-h-14" src={Laptop} alt="Laptop" />
+                    <img
+                      className="rounded-full max-h-14"
+                      src={Laptop}
+                      alt="Laptop"
+                    />
                     <div>
                       <span className="block font-bold break-words">
                         Laptop-AsusMX456GM
@@ -267,7 +309,10 @@ export default function Reports() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td className="space-x-2 lg:space-x-4 md:space-x-4">
-                    <EyeIcon width={20} className="cursor-pointer inline-block" />
+                    <EyeIcon
+                      width={20}
+                      className="cursor-pointer inline-block"
+                    />
                     <TrashIcon
                       width={20}
                       className="text-red-500 cursor-pointer inline-block"
@@ -282,7 +327,7 @@ export default function Reports() {
           </button>
         </div>
       </div>
-      {/* ========== Detail Order End ========== */}
+      {/* ========== Product Sale Details End ========== */}
     </>
   );
 }

@@ -6,12 +6,14 @@ import CommissionIcon from "../assets/icons/commision_icon.svg";
 export default function Dashboard() {
   return (
     <>
-      {/* Main content header */}
+      {/* Main content header start */}
       <div className="flex flex-col items-start justify-between pb-6 space-y-4 border-b lg:items-center lg:space-y-0 lg:flex-row">
         <h1 className="text-xl font-semibold whitespace-nowrap">
           Welcome back Salisu
         </h1>
       </div>
+      {/* Main content header end */}
+
       {/* Start content */}
       <div className="grid grid-cols-1 gap-5 mt-6 sm:grid-cols-2 lg:grid-cols-4">
         <article className="p-4 bg-white cursor-pointer transition-shadow border rounded-lg shadow-sm hover:shadow-lg">
@@ -71,56 +73,56 @@ export default function Dashboard() {
       </div>
       {/* ========== Statistics end ==========*/}
 
-      {/* ========== Detail Order ========== */}
+      {/* ========== Detail Order Start ========== */}
       <div>
         <span className="text-xl mt-5 block">Detail Order</span>
         <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
-            <table className="min-w-full overflow-x-scroll mb-5">
-              <thead className="border-b border-gray-400">
-                <tr>
-                  <th className="text-left pl-6">Data</th>
-                  <th className="text-left">Click</th>
-                  <th className="text-left">Order</th>
-                  <th className="text-left">Presentase</th>
-                  <th className="text-left">Total sales</th>
-                  <th className="text-left">Commision</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b border-gray-400">
-                  <td className="pl-6">7, June 2021</td>
-                  <td>30</td>
-                  <td>10</td>
-                  <td>3.0%</td>
-                  <td>3.0%</td>
-                  <td>$1000</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="pl-6">7, June 2021</td>
-                  <td>30</td>
-                  <td>10</td>
-                  <td>3.0%</td>
-                  <td>3.0%</td>
-                  <td>$1000</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="pl-6">7, June 2021</td>
-                  <td>30</td>
-                  <td>10</td>
-                  <td>3.0%</td>
-                  <td>3.0%</td>
-                  <td>$1000</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="pl-6">7, June 2021</td>
-                  <td>30</td>
-                  <td>10</td>
-                  <td>3.0%</td>
-                  <td>3.0%</td>
-                  <td>$1000</td>
-                </tr>
-              </tbody>
-            </table>
+          <table className="min-w-full overflow-x-scroll mb-5">
+            <thead className="border-b border-gray-400">
+              <tr>
+                <th className="text-left pl-6">Data</th>
+                <th className="text-left">Click</th>
+                <th className="text-left">Order</th>
+                <th className="text-left">Presentase</th>
+                <th className="text-left">Total sales</th>
+                <th className="text-left">Commision</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-gray-400">
+                <td className="pl-6">7, June 2021</td>
+                <td>30</td>
+                <td>10</td>
+                <td>3.0%</td>
+                <td>3.0%</td>
+                <td>$1000</td>
+              </tr>
+              <tr className="border-b border-gray-400">
+                <td className="pl-6">7, June 2021</td>
+                <td>30</td>
+                <td>10</td>
+                <td>3.0%</td>
+                <td>3.0%</td>
+                <td>$1000</td>
+              </tr>
+              <tr className="border-b border-gray-400">
+                <td className="pl-6">7, June 2021</td>
+                <td>30</td>
+                <td>10</td>
+                <td>3.0%</td>
+                <td>3.0%</td>
+                <td>$1000</td>
+              </tr>
+              <tr className="border-b border-gray-400">
+                <td className="pl-6">7, June 2021</td>
+                <td>30</td>
+                <td>10</td>
+                <td>3.0%</td>
+                <td>3.0%</td>
+                <td>$1000</td>
+              </tr>
+            </tbody>
+          </table>
           <button className="bg-purple-800 self-center py-2 px-4 rounded-md outline-none text-white">
             View All
           </button>

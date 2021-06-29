@@ -7,9 +7,10 @@ export default function Payment() {
       <div className="flex flex-col items-start justify-between pb-6 space-y-4 border-b lg:items-center lg:space-y-0 lg:flex-row">
         <h1 className="text-xl font-semibold whitespace-nowrap">Payment</h1>
       </div>
+
       {/* Start content */}
 
-      {/* ========== Detail Order ========== */}
+      {/* ========== Payment content start ========== */}
       <div>
         <span className="text-xl mt-5 block">Payment methods</span>
         <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
@@ -104,7 +105,7 @@ export default function Payment() {
           </button>
         </div>
       </div>
-      {/* ========== Detail Order End ========== */}
+      {/* ========== Payment content End ========== */}
     </>
   );
 }

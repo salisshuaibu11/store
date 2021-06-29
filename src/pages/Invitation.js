@@ -9,35 +9,35 @@ export default function Invitation() {
       </div>
       {/* Start content */}
 
-      {/* ========== Detail Order ========== */}
+      {/* ========== Invitation Container Start ========== */}
       <div className="py-10 invite px-36 flex flex-col text-white items-center justify-center bg-blue-600 bg-blend-multiply rounded-md">
         <div className="flex flex-col justify-center items-center py-2">
-        <h2 className="text-2xl text-center font-extrabold">
-          Invite Friends and Earn Active Commission
-        </h2>
-        <p className="text-center my-4">
-          {" "}
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          nesciunt magnam impedit culpa eaque voluptatibus, ab voluptatum
-          accusantium voluptate velit, molestiae suscipit earum fuga quaerat
-          dolores, perspiciatis voluptates sint quasi.
-        </p>
-        <div className="relative">
-          <input
-            className="h-10 px-5 w-80 border border-gray-400 rounded-md outline-none"
-            type="text"
-            value="http://AsusMx/4548"
-            contentEditable={false}
-          />
-          <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute left-56">
-            Copy Link
-          </button>
-        </div>
+          <h2 className="text-2xl text-center font-extrabold">
+            Invite Friends and Earn Active Commission
+          </h2>
+          <p className="text-center my-4">
+            {" "}
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            nesciunt magnam impedit culpa eaque voluptatibus, ab voluptatum
+            accusantium voluptate velit, molestiae suscipit earum fuga quaerat
+            dolores, perspiciatis voluptates sint quasi.
+          </p>
+          <div className="relative">
+            <input
+              className="h-10 px-5 w-80 border border-gray-400 rounded-md outline-none"
+              type="text"
+              value="http://AsusMx/4548"
+              contentEditable={false}
+            />
+            <button className="bg-blue-600 rounded-tr-md rounded-br-md outline-none text-white p-2 px-5 absolute left-56">
+              Copy Link
+            </button>
+          </div>
         </div>
       </div>
-      {/* ========== Detail Order End ========== */}
+      {/* ========== Invitation Container End ========== */}
 
-      {/* ========== Detail Order ========== */}
+      {/* ========== Product Order Start ========== */}
       <div>
         <span className="text-xl mt-5 block">Product Sale Details</span>
         <div className="shadow-lg py-4 bg-white rounded-md flex flex-col">
@@ -64,9 +64,7 @@ export default function Invitation() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-5 flex items-center">
-                    325
-                  </td>
+                  <td className="space-x-5 flex items-center">325</td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex items-center space-x-3 pl-5">
@@ -76,9 +74,7 @@ export default function Invitation() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-5 flex items-center">
-                    325
-                  </td>
+                  <td className="space-x-5 flex items-center">325</td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex items-center space-x-3 pl-5">
@@ -88,9 +84,7 @@ export default function Invitation() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-5 flex items-center">
-                    325
-                  </td>
+                  <td className="space-x-5 flex items-center">325</td>
                 </tr>
                 <tr className="border-b border-gray-400">
                   <td className="flex items-center space-x-3 pl-5">
@@ -100,9 +94,7 @@ export default function Invitation() {
                   <td>300</td>
                   <td>1500</td>
                   <td>$6000</td>
-                  <td className="space-x-5 flex items-center">
-                    325
-                  </td>
+                  <td className="space-x-5 flex items-center">325</td>
                 </tr>
               </tbody>
             </table>
@@ -112,7 +104,7 @@ export default function Invitation() {
           </button>
         </div>
       </div>
-      {/* ========== Detail Order End ========== */}
+      {/* ========== Product Order End ========== */}
     </>
   );
 }
