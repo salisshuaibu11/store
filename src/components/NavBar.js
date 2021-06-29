@@ -36,6 +36,8 @@ function NavBar({ chevronClicked, show }) {
               </button>
             </div>
 
+            <h4>Salisu Shuaibu</h4>
+
             {/* Avatar */}
             <div className="relative">
               <button className="p-1 bg-gray-200 rounded-full focus:outline-none focus:ring">

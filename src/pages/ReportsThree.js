@@ -45,7 +45,7 @@ export default function ReportsThree() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-purple-800 w-24 py-2 rounded-lg">
+                    <button className="text-white bg-green-600 w-24 py-2 rounded-lg">
                       Success
                     </button>
                   </td>
@@ -70,7 +70,7 @@ export default function ReportsThree() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-red-500 w-24 px-4 py-2 rounded-lg">
+                    <button className="text-white bg-red-400 w-24 px-4 py-2 rounded-lg">
                       Canceled
                     </button>
                   </td>
@@ -95,7 +95,7 @@ export default function ReportsThree() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-300 w-24 px-4 py-2 rounded-lg">
+                    <button className="text-white font-extrabold bg-yellow-200 w-24 px-4 py-2 rounded-lg">
                       Pending
                     </button>
                   </td>

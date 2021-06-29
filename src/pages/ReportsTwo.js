@@ -45,7 +45,7 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                    <button className="text-white bg-red-400 px-4 py-2 rounded-lg">
                       Cancelled
                     </button>
                   </td>
@@ -70,7 +70,7 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                    <button className="text-white bg-red-400 px-4 py-2 rounded-lg">
                       Cancelled
                     </button>
                   </td>
@@ -95,7 +95,7 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                    <button className="text-white bg-red-400 px-4 py-2 rounded-lg">
                       Cancelled
                     </button>
                   </td>
@@ -120,7 +120,7 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                    <button className="text-white bg-red-400 px-4 py-2 rounded-lg">
                       Cancelled
                     </button>
                   </td>
@@ -145,7 +145,7 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                    <button className="text-white bg-red-400 px-4 py-2 rounded-lg">
                       Cancelled
                     </button>
                   </td>
@@ -170,7 +170,7 @@ export default function ReportsTwo() {
                   <td>1500</td>
                   <td>$6000</td>
                   <td>
-                    <button className="text-white bg-yellow-500 px-4 py-2 rounded-lg">
+                    <button className="text-white bg-red-400 px-4 py-2 rounded-lg">
                       Cancelled
                     </button>
                   </td>
